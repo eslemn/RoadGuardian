@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pypytest_cache/
+.pytest_cache/
+.venv/
+venv/
+
+# Generated data and reports
+detection/simulation/outputs/
+reports/
+
+# Trained models
+*.joblib
+*.pt
+*.keras
+
+# Environment
+.env
