@@ -1,0 +1,6 @@
+{
+  "name": "AutoDrive OS - Araç İçi Bilgi-Eğlence ve Navigasyon",
+  "description": "Flutter ve Google Haritalar destekli, modern araç içi bilgi-eğlence ekranı, canlı harita navigasyonu, araç kontrolleri ve telemetri kokpiti.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
