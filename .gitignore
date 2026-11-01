@@ -17,3 +17,25 @@ reports/
 
 # Environment
 .env
+
+# React
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# AI development files
+.gmp_cache/
+.aistudio/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Temporary files
+ui-temp/
+ui-latest.zip

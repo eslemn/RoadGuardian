@@ -1,0 +1,113 @@
+import { LocationPoint, MediaTrack } from '../types/automotive';
+
+// Default starting vehicle location (Istanbul Bosphorus / Levent highway area)
+export const INITIAL_CAR_LOCATION: LocationPoint = {
+  lat: 41.0850,
+  lng: 29.0150,
+  title: 'Mevcut Konum',
+  subtitle: 'Büyükdere Caddesi, Levent, İstanbul',
+};
+
+export const POPULAR_DESTINATIONS: LocationPoint[] = [
+  {
+    lat: 41.1118,
+    lng: 29.0205,
+    title: 'Tesla Supercharger Maslak',
+    subtitle: 'Vadi İstanbul AVM Otopark Kat -2',
+    type: 'charger',
+    details: '250 kW Ultra Hızlı Şarj • CCS2',
+    rating: 4.9,
+    distanceKm: 3.8,
+    availableStalls: '6 / 8 Boş',
+  },
+  {
+    lat: 41.0422,
+    lng: 29.0069,
+    title: 'Trugo Yüksek Hızlı Şarj İstasyonu',
+    subtitle: 'Zorlu Center P1 Otopark Alanı',
+    type: 'charger',
+    details: '180 kW DC Şarj • 7/24 Açık',
+    rating: 4.8,
+    distanceKm: 5.2,
+    availableStalls: '4 / 6 Boş',
+  },
+  {
+    lat: 41.0526,
+    lng: 29.0125,
+    title: 'Opet Mehmetçik Vakfı Akaryakıt & Şarj',
+    subtitle: 'TEM Otoyolu Çıkışı No: 12',
+    type: 'fuel',
+    details: 'Ultra Force Benzin / Motorin + 120kW ZES Şarj',
+    rating: 4.6,
+    distanceKm: 4.1,
+    availableStalls: 'Yakıt Pompaları Müsait',
+  },
+  {
+    lat: 41.0833,
+    lng: 29.0521,
+    title: 'Bebek Sahil & Starbucks Reserve',
+    subtitle: 'Cevdet Paşa Caddesi, Bebek',
+    type: 'cafe',
+    details: 'Boğaz Manzaralı Dinlenme Noktası & Vale',
+    rating: 4.7,
+    distanceKm: 6.5,
+    availableStalls: 'Vale Park Mevcut',
+  },
+  {
+    lat: 41.0186,
+    lng: 28.9744,
+    title: 'Tarihi Galata & Karaköy Meydanı',
+    subtitle: 'Kemankeş Karamustafa Paşa, Beyoğlu',
+    type: 'parking',
+    details: 'Karaköy Katlı Kapalı Otopark (İSPARK)',
+    rating: 4.5,
+    distanceKm: 9.3,
+    availableStalls: '82 Araçlık Yer Var',
+  },
+  {
+    lat: 41.0261,
+    lng: 29.0152,
+    title: 'Boğaziçi Köprüsü (15 Temmuz Şehitler)',
+    subtitle: 'Anadolu Yakası Geçiş Güzergahı',
+    type: 'work',
+    details: 'Akıcı Trafik • Ortalama Hız 72 km/s',
+    rating: 4.9,
+    distanceKm: 7.4,
+    availableStalls: 'Gişeler HGS Açık',
+  },
+];
+
+export const MOCK_PLAYLIST: MediaTrack[] = [
+  {
+    id: '1',
+    title: 'Midnight Drive (Synthwave)',
+    artist: 'Kavinsky & The Weeknd',
+    album: 'Nightcall Automotive Edition',
+    durationSeconds: 234,
+    coverUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=300&auto=format&fit=crop&q=80',
+  },
+  {
+    id: '2',
+    title: 'Starboy (Electro Remix)',
+    artist: 'The Weeknd ft. Daft Punk',
+    album: 'Starboy High Fidelity',
+    durationSeconds: 218,
+    coverUrl: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=300&auto=format&fit=crop&q=80',
+  },
+  {
+    id: '3',
+    title: 'Istanbul Twilight Jazz',
+    artist: 'Bosphorus Acoustic Trio',
+    album: 'Late Night Cruising',
+    durationSeconds: 265,
+    coverUrl: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300&auto=format&fit=crop&q=80',
+  },
+  {
+    id: '4',
+    title: 'Electric Horizon',
+    artist: 'CyberDrive & Tycho',
+    album: 'Future Mobility OST',
+    durationSeconds: 195,
+    coverUrl: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=300&auto=format&fit=crop&q=80',
+  },
+];
